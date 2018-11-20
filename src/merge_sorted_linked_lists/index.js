@@ -21,14 +21,6 @@ const mergeTwoLists = function(l1, l2) {
 	function removeTail() {
 		if (baseNode.val === undefined) return;
 		tail.next = null;
-		// let newHead = baseNode;
-		// while(newHead.next) {
-		// 	if (newHead.next.val === undefined) {
-		// 		newHead.next = null;
-		// 		break;
-		// 	}
-		// 	newHead = newHead.next;
-		// }
 	}
 	
 	while(headA !== null || headB !== null) { 
