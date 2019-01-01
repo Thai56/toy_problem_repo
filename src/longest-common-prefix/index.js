@@ -1,5 +1,4 @@
 function findLongestCommonPrefix(modelStr, strs) {
-	var max = 0;
 	var result = '';
 	let i = 0;
 	
