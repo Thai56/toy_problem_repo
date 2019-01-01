@@ -8,7 +8,7 @@ const mergeToLists = require('./index.js');
 function ListNode(val) {
 	this.val = val;
 	this.next = null;
-}}
+}
 
 describe('mergeToLists', () => {
   let firstList;
